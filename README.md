@@ -1,6 +1,6 @@
 # learnsmart
 
-A new Flutter project.
+Learn Smart is a e-learnign mobile app.
 
 ## Getting Started
 

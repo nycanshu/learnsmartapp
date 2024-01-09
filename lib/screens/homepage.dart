@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:learnsmart/screens/course_screen.dart';
 
 // ignore: must_be_immutable
 class HomePage extends StatelessWidget {
@@ -209,7 +210,14 @@ class HomePage extends StatelessWidget {
                   ),
                   itemBuilder: (context, index) {
                     return GestureDetector(
-                      onTap: () {},
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => CourseScreen(imgList[index]),
+                          ),
+                        );
+                      },
                       child: Container(
                         padding: const EdgeInsets.symmetric(
                             vertical: 20, horizontal: 10),

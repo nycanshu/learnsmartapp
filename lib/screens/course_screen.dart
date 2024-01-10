@@ -2,10 +2,12 @@ import 'package:flutter/material.dart';
 
 import '../widgets/description_screen.dart';
 import '../widgets/videos_screen.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class CourseScreen extends StatefulWidget {
   String img;
-  CourseScreen(this.img);
+  String links;
+  CourseScreen(this.img, this.links);
 
   @override
   State<CourseScreen> createState() => _CourseScreenState();
@@ -13,6 +15,17 @@ class CourseScreen extends StatefulWidget {
 
 class _CourseScreenState extends State<CourseScreen> {
   bool isVidSelected = true;
+
+  Future<void> _launchURL(String url) async {
+    final Uri uri = Uri.parse(url);
+    if (!await launchUrl(
+      uri,
+      mode: LaunchMode.externalApplication,
+    )) {
+      throw "Can't launch $url";
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -64,10 +77,15 @@ class _CourseScreenState extends State<CourseScreen> {
                     color: Colors.white,
                     shape: BoxShape.circle,
                   ),
-                  child: Icon(
-                    Icons.play_arrow_rounded,
-                    size: 45,
-                    color: Colors.blueGrey,
+                  child: GestureDetector(
+                    onTap: () {
+                      _launchURL(widget.links);
+                    },
+                    child: Icon(
+                      Icons.play_arrow_rounded,
+                      size: 45,
+                      color: Colors.blueGrey,
+                    ),
                   ),
                 ),
               ),

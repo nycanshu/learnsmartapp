@@ -7,6 +7,13 @@ class DashboardScreen extends StatelessWidget {
   DashboardScreen({super.key});
 
   //static data for subjects.
+  List courseLinks = [
+    "https://www.youtube.com/playlist?list=PL4BZMEV0Q77jNUlpwx7M_BUNfjfpVpVfX",
+    "https://www.youtube.com/playlist?list=PL4BZMEV0Q77gSzT4ksI0YsyyPr0cwBDr3",
+    "https://www.youtube.com/playlist?list=PL0dzwwN8t4yCmkJOWOkVkSj8HehNWfIZY",
+    "https://www.youtube.com/playlist?list=PL4BZMEV0Q77g15hU5FceSXQiDVUlIGX8_",
+  ];
+
   List catName = [
     'Category',
     'Classes',
@@ -184,6 +191,7 @@ class DashboardScreen extends StatelessWidget {
                     );
                   },
                 ),
+
                 const Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
@@ -207,6 +215,8 @@ class DashboardScreen extends StatelessWidget {
                 const SizedBox(
                   height: 10,
                 ),
+
+                //all subjects section -->
                 GridView.builder(
                   shrinkWrap: true,
                   itemCount: imgList.length,
@@ -225,7 +235,8 @@ class DashboardScreen extends StatelessWidget {
                         Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => CourseScreen(imgList[index]),
+                            builder: (context) => CourseScreen(
+                                imgList[index], courseLinks[index]),
                           ),
                         );
                       },
@@ -244,9 +255,6 @@ class DashboardScreen extends StatelessWidget {
                               width: 150,
                               height: 150,
                             ),
-                          ),
-                          const SizedBox(
-                            height: 10,
                           ),
                           Text(
                             imgList[index],

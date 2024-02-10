@@ -20,9 +20,13 @@ can find a good collection of quality content for study.
 
 <p>
 
-<img src="[[https://firebasestorage.googleapis.com/v0/b/academic-master.appspot.com/o/Screenshot_1668902923.png?alt=media&token=f9193f45-8cc8-4e9d-b05a-7f09bcc429ba](https://drive.google.com/file/d/1LuSWi8oRu9-9YVtkviDtTPuFYzc4xHi6/view?usp=drive_link)](https://drive.google.com/file/d/1LuSWi8oRu9-9YVtkviDtTPuFYzc4xHi6/view?usp=drive_link)"  width="370" height="680">
+<img src="![DashBoard](readme-images/dashboard.jpg)"  width="370" height="680">
 
-<img src="https://firebasestorage.googleapis.com/v0/b/academic-master.appspot.com/o/Screenshot_1668902952.png?alt=media&token=aa50ea59-81ea-4513-b917-dd7a9581c3e4"  width="370" height="680">
+<img src="![Getting Started-SplashScreen](readme-images/splashscreen.jpg)"  width="370" height="680">
+
+<img src="![Course-lists](readme-images/course-list.jpg)"  width="370" height="680">
+
+<img src="![Course Description](readme-images/course-desc.jpg)"  width="370" height="680">
 
 
 

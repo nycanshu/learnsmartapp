@@ -18,28 +18,18 @@ can find a good collection of quality content for study.
 
 ## Screenshots
 
+
 <p>
+  <img src="https://github.com/nycanshu/learnsmartapp/assets/112685847/5647691a-c583-4aa9-afd4-0c056ac32ad1" alt="splashscreen" width="400" style="margin-right: 20px;">
 
-<img src="![DashBoard](readme-images/dashboard.jpg)"  width="370" height="680">
+  <img src="https://github.com/nycanshu/learnsmartapp/assets/112685847/2dbbee56-db3b-4f3d-9a69-0b15fa072561" alt="dashboard" width="400" style="margin-right: 20px;">
 
-<img src="![Getting Started-SplashScreen](readme-images/splashscreen.jpg)"  width="370" height="680">
+  <img src="https://github.com/nycanshu/learnsmartapp/assets/112685847/2b7c630e-6c2d-4fd9-afd9-0f9c88fa0503" alt="course-list" width="400" style="margin-right: 20px;">
 
-<img src="![Course-lists](readme-images/course-list.jpg)"  width="370" height="680">
-
-<img src="![Course Description](readme-images/course-desc.jpg)"  width="370" height="680">
-
-
-
-
-
-
-
-
-
-
-<img src="https://firebasestorage.googleapis.com/v0/b/academic-master.appspot.com/o/Screenshot_1668903019.png?alt=media&token=53a82db9-7cdc-477c-b1eb-1d841b1a6423"  width="370" height="680">
-
+  <img src="https://github.com/nycanshu/learnsmartapp/assets/112685847/eef9f093-a20b-487a-97df-553f1702343c" alt="course-desc" width="400">
 </p>
+
+
 
 ## Installation
 
